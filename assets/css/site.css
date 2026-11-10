@@ -231,7 +231,9 @@ a { color: inherit; }
 .screen-hint {
   position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
   font-family: var(--hand); font-size: 1.6rem; color: #8C8478; opacity: calc(1 - var(--p) * 1.6);
+  flex-direction: column; gap: 6px; text-align: center;
 }
+.screen-hint small { font-size: 1.15rem; color: #B0867A; }
 .pieces { position: absolute; left: 10px; top: 10px; width: 280px; height: 498px; }
 .piece {
   position: absolute; will-change: transform;
@@ -397,13 +399,13 @@ a { color: inherit; }
   .layers-grid { grid-template-columns: minmax(0, 1fr); gap: 8px; }
   .layers-grid .feature-copy { gap: 10px; }
   .layers-grid .lede { font-size: 0.98rem; }
-  .stack-zone { min-height: 0; height: 380px; order: -1; }
-  .stack { transform: scale(.78) rotateX(calc(var(--lp) * 54deg)) rotateZ(calc(var(--lp) * -32deg)); }
+  .stack-zone { min-height: 0; height: 350px; order: -1; }
+  .stack { transform: translateY(calc(var(--lp) * 46px)) scale(.7) rotateX(calc(var(--lp) * 54deg)) rotateZ(calc(var(--lp) * -32deg)); }
   .layer-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; max-width: none; }
   .layer-btn { min-height: 44px; font-size: 0.82rem; padding: 4px 10px; }
   .layer-btn .k { display: none; }
 }
-@media (max-width: 880px) and (max-height: 760px) { .stack-zone { height: 320px; } .stack { transform: scale(.64) rotateX(calc(var(--lp) * 54deg)) rotateZ(calc(var(--lp) * -32deg)); } .layers-grid .lede { display: none; } }
+@media (max-width: 880px) and (max-height: 860px) { .stack-zone { height: 320px; } .stack { transform: translateY(calc(var(--lp) * 40px)) scale(.6) rotateX(calc(var(--lp) * 54deg)) rotateZ(calc(var(--lp) * -32deg)); } .layers-grid .lede { display: none; } }
 
 /* toolbox list */
 .toolbox { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 40px; }
