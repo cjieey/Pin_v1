@@ -124,11 +124,11 @@
 
   /* ---- layers ---- */
   var LAYERS = [
-    [5, 'Text', 'Today DUMP!, Elo River'],
-    [4, 'Sticker', 'Rafting crew'],
-    [3, 'Photo', 'river day'],
-    [2, 'Photo', 'the temple'],
-    [1, 'Photo', 'day one'],
+    [5, 'Text', 'Today DUMP!, Forest Road'],
+    [4, 'Sticker', 'Couple cut-out'],
+    [3, 'Photo', 'hand in hand'],
+    [2, 'Photo', 'into the woods'],
+    [1, 'Photo', 'the whole fam'],
     [0, 'Background', 'Grid paper']
   ];
   var planes = document.querySelectorAll('#stack .plane');
