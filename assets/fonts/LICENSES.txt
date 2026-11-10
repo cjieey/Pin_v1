@@ -1,0 +1,7 @@
+Fonts in this folder are self-hosted copies from Fontsource (fontsource.org):
+Bricolage Grotesque, Plus Jakarta Sans, Caveat, DM Serif Display, Archivo Black
+and Great Vibes. All are licensed under the SIL Open Font License 1.1
+(https://openfontlicense.org).
+
+assets/js/vendor/qrcode.js: QR Code Generator for JavaScript by Kazuhiko Arase,
+MIT licence.

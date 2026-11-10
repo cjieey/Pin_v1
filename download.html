@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Download Pin. for Android</title>
+<meta name="description" content="Download the Pin. app for Android (APK, version 1.0.0, 79.5 MB). Collages, photo grids, cut-out stickers and fonts on your phone.">
+<meta name="theme-color" content="#FBF4EF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#171312" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pin.">
+<meta property="og:title" content="Download Pin. for Android">
+<meta property="og:description" content="Early access: collages, photo grids, cut-out stickers and fonts on your phone.">
+<meta property="og:image" content="/assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="assets/fonts/plus-jakarta-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/dm-serif-display.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css?v=1.0.0">
+<script src="assets/js/vendor/qrcode.js?v=1.4.4" defer></script>
+<script src="assets/js/download.js?v=1.0.0" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="Pin. home">
+      <img src="assets/img/icon-256.webp" alt="" width="34" height="34">
+      <span class="wordmark">Pin<b>.</b></span>
+    </a>
+    <div class="nav-links">
+      <a href="./#frames">Features</a>
+      <a href="#install">How to install</a>
+      <a href="#questions">Questions</a>
+    </div>
+    <a class="btn btn-ghost" href="./">Back to home</a>
+  </div>
+</nav>
+
+<main id="main" class="dl-hero">
+  <div class="wrap dl-grid">
+    <section class="dl-card" aria-labelledby="app-name">
+      <span class="eyebrow">Early access</span>
+      <div class="dl-app">
+        <img src="assets/img/icon-256.webp" alt="Pin. app icon" width="88" height="88">
+        <div>
+          <h1 id="app-name">Pin<b>.</b></h1>
+          <p>Collage, cut-out &amp; font editor</p>
+        </div>
+      </div>
+
+      <dl class="facts">
+        <div><dt>Version</dt><dd>1.0.0</dd></div>
+        <div><dt>Size</dt><dd>79.5 MB</dd></div>
+        <div><dt>Needs</dt><dd>Android 7+</dd></div>
+      </dl>
+
+      <a class="btn btn-primary dl-btn" id="dl" href="https://drive.google.com/uc?export=download&id=123f0MXMBN1XGG9bjSLWNSXYUzd6Q_5F5" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+        Download APK
+      </a>
+      <p class="status" id="dl-status" role="status" aria-live="polite"></p>
+
+      <div class="notice" id="notice-ios" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5"/><path d="M12 16h.01"/></svg>
+        <div><strong>Pin. is Android-only for now.</strong>This file will not open on an iPhone or iPad. Send this page to an Android phone, or check back for the iPhone version.</div>
+      </div>
+      <div class="notice" id="notice-desktop" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
+        <div><strong>Install it on your phone.</strong>Scan the code on this page with your Android phone's camera to download straight to it, or download here and copy the file across.</div>
+      </div>
+
+      <div class="checksum">
+        <span class="eyebrow" style="color:var(--muted)">SHA-256 checksum</span>
+        <code id="sha">5a5adf959b17b2fef033bd264803bee4786c13bef02559378aa334384027673c</code>
+        <div class="copy-row">
+          <button class="btn btn-ghost btn-small" type="button" id="copy-sha">Copy checksum</button>
+          <span class="status" id="copy-status" role="status" aria-live="polite"></span>
+        </div>
+      </div>
+    </section>
+
+    <div class="dl-side">
+      <div class="qr-card" id="qr-card" hidden>
+        <div class="qr" id="qr" role="img" aria-label="QR code that opens this download page"></div>
+        <div>
+          <h2 style="font-size:1.35rem">Scan to get it on your phone</h2>
+          <p>Point your Android phone's camera at the code, open the link, then tap Download APK.</p>
+        </div>
+      </div>
+
+      <section aria-labelledby="install">
+        <h2 id="install" style="font-size:1.6rem; margin-bottom:14px">How to install</h2>
+        <ol class="steps-list">
+          <li><div><strong>Download the APK</strong><span>Tap Download APK above. Google Drive may say it can't scan the file for viruses because it is large. Tap "Download anyway" and your browser saves Pin.apk to Downloads.</span></div></li>
+          <li><div><strong>Open the file</strong><span>Tap the finished download in your notifications, or open it from the Files or Downloads app.</span></div></li>
+          <li><div><strong>Allow this install</strong><span>Android asks you to allow installs from your browser the first time. Tap Settings, turn on "Allow from this source", then go back.</span></div></li>
+          <li><div><strong>Tap Install, then Open</strong><span>Pin. appears on your home screen with the coral P icon.</span></div></li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="questions" style="display:flex; flex-direction:column; gap:10px">
+        <h2 id="questions" style="font-size:1.6rem; margin-bottom:4px">Questions</h2>
+        <details class="faq">
+          <summary>Android warned me about this app. Is that normal?</summary>
+          <p>Yes. Pin. is not on the Google Play Store yet, so Google Play Protect may ask you to scan it or show a warning. Choose "More details", then "Install anyway". You can compare the file with the SHA-256 checksum on this page to make sure it has not been changed.</p>
+        </details>
+        <details class="faq">
+          <summary>Google Drive says it can't scan the file. Is that a problem?</summary>
+          <p>No. Google Drive shows that message for every file over 25 MB, because it only virus-scans smaller files. Tap "Download anyway" to continue.</p>
+        </details>
+        <details class="faq">
+          <summary>Is there an iPhone version?</summary>
+          <p>Not yet. This early version is for Android phones running Android 7.0 or newer.</p>
+        </details>
+        <details class="faq">
+          <summary>How do I update to a newer version?</summary>
+          <p>Download the newest APK from this page and open it. If Android says the app cannot be updated, uninstall Pin. first, then install the new file.</p>
+        </details>
+        <details class="faq">
+          <summary>Does Pin. need the internet?</summary>
+          <p>Only for downloading fonts and for one-tap background removal. Everything else works offline.</p>
+        </details>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="wordmark">Pin<b>.</b></span>
+    <span>Collages, cut-outs and fonts for the photos you love.</span>
+    <span class="end">© 2026 Pin.</span>
+  </div>
+</footer>
+</body>
+</html>
